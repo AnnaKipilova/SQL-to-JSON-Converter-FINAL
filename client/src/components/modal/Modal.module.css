@@ -1,0 +1,33 @@
+.modal {
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  z-index: 101;
+  left: 0;
+  top: 0;
+  color: red;
+}
+
+.background {
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    background-color: #49454D;
+    animation: showBackground .3s ease-in-out;
+    opacity: 0.7;
+    z-index: -10;
+}
+
+@keyframes showBackground {
+    from {opacity: 0;}
+    to {opacity: 0.7;}
+}
+
+.h2 {
+    z-index: 101;
+    color: white;
+}
+

@@ -1,0 +1,69 @@
+.input {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  flex: 1;
+  margin-bottom: 12px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 21.17px;
+}
+
+.inputContainer {
+    position: relative
+}
+
+.icon {
+    position: absolute;
+    top: 50%;
+    width: 24px;
+    right: 15px;
+    transform: translateY(-50%);
+}
+.label {
+    position: absolute;
+    left: .8rem;
+    top: -0.4rem;
+    padding: 0 5px;
+    background-color: rgb(229, 229, 229);
+    border-radius: 3px;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    color: #6b7783;
+}
+
+.label::after {
+    content: '';
+    position: absolute;
+    left: -.25rem;
+    width: calc(100% + .5rem);
+    height: 100%;
+    background-color: rgb(229, 229, 229);
+    border-radius: 3px;
+    z-index: -1;
+}
+
+.inputComponent {
+    width: 100%;
+    min-height: 50px;
+    border: 1px solid #6b7783;
+    border-radius: 8px;
+    padding-left: 0.8rem;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20.8px;
+    letter-spacing: 0.01em;
+}
+
+.inputComponent::placeholder {
+    color: #919eab;
+}
+
+.inputComponent:focus {
+    outline: none;
+}
+
+.selectComponent {
+  padding: 0 10px;
+}

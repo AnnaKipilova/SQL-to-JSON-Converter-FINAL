@@ -1,0 +1,18 @@
+/* prevzaté z https://codesandbox.io/embed/ecstatic-waterfall-e87xz */
+
+.select {
+  display:inline-block;
+  flex-direction: column;
+  justify-content: center;
+  width: 30%;
+  align-items: center;
+  opacity: 1;
+}
+
+.BtnSelectAll {
+    
+}
+
+.css-13cymwt-control {
+  border-color: red;
+}
